@@ -1,0 +1,62 @@
+{
+    "experiencie": [
+        {
+            "id": 1,
+            "rol": "Desarrollador Fullstack",
+            "lugar": "Global Tech",
+            "actualidad": false,
+            "periodo": "Septiembre-2024 a Enero-2026",
+            "descripcion": "Desarrollador Fullstack sobre Framework Scriptcase de PHP, utilizando javascript, jquery, stored procedure, Node js, Fastify, slack, trello, JasperReport, Echarts."
+        },
+        {
+            "id": 2,
+            "rol": "Desarrollador Frontend",
+            "lugar": "Quinto Impacto",
+            "actualidad": false,
+            "periodo": "Junio-2024 a Agosto-2024",
+            "descripcion": "Desarrollador Frontend en Semillero perteneciente a la empresa Quinto Impacto. Desarrollo de un Minimo producto viable con tecnologías de Javascript, React, NodeJs, Material UI, API utilizando Axios y con Base de Datos MariaDB."
+        },
+        {
+            "id": 3,
+            "rol": "Desarrollador Fullstack",
+            "lugar": "Digital House",
+            "actualidad": false,
+            "periodo": "Abril-2023 a Diciembre-2023",
+            "descripcion": "En este curso trabaje en equipo dos proyectos integradores con tecnologías de Node, React, Sql, Html, Css, Javascript. Separando los proyectos en backend y frontend."
+        },
+        {
+            "id": 4,
+            "rol": "Referente Informático",
+            "lugar": "Ministerio de Salud de Jujuy",
+            "actualidad": false,
+            "periodo": "Julio-2020 a Diciembre-2024",
+            "descripcion": "Trabajando en el area de Unidad Programas del Ministerio realizando cruces en bases de datos para indicadores sanitarios, analista funcional y desarrollador para el sistema de sumar y otros, utilizando lenguaje C# en .NET, javascript, html, css, razor, LINQ, Stored Procedure."
+        },
+        {
+            "id": 5,
+            "rol": "Desarrollador Fullstack",
+            "lugar": "Universidad Nacional de Jujuy",
+            "actualidad": false,
+            "periodo": "Noviembre-2018 a Marzo-2024",
+            "descripcion": "Mantenimiento y desarrollo de páginas y sistemas web en PHP, utilizando bootstrap, javascript, jquery, sql"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "image": "ecommerce_dh.png",
+            "url_view_prev": "https:\/\/github.com\/titojorge\/ecommerce-dh",
+            "url_git_hub": "https:\/\/github.com\/titojorge\/ecommerce-dh",
+            "title": "Ecommerce DH",
+            "description": "Proyecto web final e integrador que consume una API local de productos, diseñado con HTML, CSS, React, Redux, Typescript y NodeJs, . Presenta un diseño responsivo y funcional, destacando integración y usabilidad."
+        },
+        {
+            "id": 2,
+            "image": "portfolio_jaz.png",
+            "url_view_prev": "https:\/\/github.com\/titojorge\/portfolio_jaz",
+            "url_git_hub": "https:\/\/github.com\/titojorge\/portfolio_jaz",
+            "title": "Portfolio Jorge Zoto",
+            "description": "Proyecto web de portfolio hecho en react, typescript, nodeJs, y usando json-server. Un par de hooks de react como ser useState y useEffect. "
+        }
+    ]
+}

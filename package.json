@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "json-server": "json-server --watch Experiencia_laboral.json"
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
     "aos": "^2.3.4",
