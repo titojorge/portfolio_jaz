@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 
 export const Experience = () => {
+
+    
     interface Experience {
         id: number;
         rol: string;
@@ -9,14 +11,14 @@ export const Experience = () => {
         periodo: string;
         descripcion: string
     }
-
+    
+    const API_URL = import.meta.env.VITE_API_URL;
     const [experiences, setExperiences] = useState<Experience[]>([])
-
 
     useEffect(() => {
         const fetchExperiences = async() => {
             try {
-                const response = await fetch("http://localhost:3000/experiencie");
+                const response = await fetch(`${API_URL}/experiencie`);
                 const data = await response.json();
                 setExperiences(data);
             } catch (error) {

@@ -45,7 +45,7 @@
         {
             "id": 1,
             "image": "ecommerce_dh.png",
-            "url_view_prev": "https:\/\/github.com\/titojorge\/ecommerce-dh",
+            "url_view_prev": "https://ecommercedh.vercel.app/",
             "url_git_hub": "https:\/\/github.com\/titojorge\/ecommerce-dh",
             "title": "Ecommerce DH",
             "description": "Proyecto web final e integrador que consume una API local de productos, diseñado con HTML, CSS, React, Redux, Typescript y NodeJs, . Presenta un diseño responsivo y funcional, destacando integración y usabilidad."

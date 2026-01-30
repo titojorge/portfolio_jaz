@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const Projects = () => {
+    
     interface Projects {
         id: number;
         image: string;
@@ -9,14 +10,14 @@ export const Projects = () => {
         title: string;
         description: string
     }
-
+    
+    const API_URL = import.meta.env.VITE_API_URL;
     const [projects, setProjects] = useState<Projects[]>([])
-
 
     useEffect(() => {
         const fetchProjects = async () => {
             try {
-                const response = await fetch("http://localhost:3000/projects");
+                const response = await fetch(`${API_URL}/projects`);
                 const data = await response.json();
                 setProjects(data);
             } catch (error) {
