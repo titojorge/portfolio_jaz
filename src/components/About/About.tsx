@@ -1,3 +1,4 @@
+import foto2 from '../../assets/images/JorgeZoto (1).jpg'
 
 export const About = () => {
   return (
@@ -25,7 +26,7 @@ export const About = () => {
                         Mi <strong>objetivo es seguir aprendiendo y contribuir al desarrollo</strong> de proyectos innovadores.
                     </p>
                 </div>
-                <img src="../../assets/images/JorgeZoto (1).jpg" alt="Jorge Zoto Dev"
+                <img src={foto2} alt="Jorge Zoto Dev"
                     className="w-52 order-1 object-cover  p-1 md:order-2 rotate-6 lg:p-2 lg:w-64  rounded-full bg-yellow-500/5 ring-4 ring-white/30 " />
             </article>
         </section>
