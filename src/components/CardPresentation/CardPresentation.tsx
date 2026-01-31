@@ -6,7 +6,7 @@ export const CardPresentation = () => {
                 <div className="w-full">
                     <div className="flex flex-col md:flex-row gap-5">
                         <div className="w-full md:w-1/4 flex flex-col justify-around items-center gap-4 mb-4" >
-                            <img className="rounded-full shadow-lg size-40" style={{ objectFit: "none" }} src="../../../public/jorge_zoto_perfil.png" alt="JorgeZoto" />
+                            <img className="rounded-full shadow-lg size-40" style={{ objectFit: "none" }} src="../../assets/images/jorge_zoto_perfil.png" alt="JorgeZoto" />
                         </div>
                         <div className="w-full md:w-3/4 ">
                             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5x">

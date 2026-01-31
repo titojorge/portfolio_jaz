@@ -39,7 +39,7 @@ export const Projects = () => {
 
                         <div key={project.id+project.title} className="block rounded-lg shadow-secondary-1 bg-slate-900 ">
                             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-                                <img className="rounded-t-lg object-cover object-center w-full h-56 " src={`../../../public/${project.image}`}
+                                <img className="rounded-t-lg object-cover object-center w-full h-56 " src={`../../assets/images/${project.image}`}
                                     alt="Proyecto Ecommerce DH" />
                                 <a href={project.url_view_prev} target="_blank" role="link">
                                     <div
