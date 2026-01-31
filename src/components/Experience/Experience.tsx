@@ -26,7 +26,7 @@ export const Experience = () => {
             }
         };
         fetchExperiences();
-    }, []);
+    }, [API_URL]);
 
 
     return (

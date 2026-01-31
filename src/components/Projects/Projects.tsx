@@ -25,7 +25,7 @@ export const Projects = () => {
             }
         };
         fetchProjects();
-    }, []);
+    }, [API_URL]);
 
 
 
