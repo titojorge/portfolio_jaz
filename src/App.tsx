@@ -8,6 +8,7 @@ import { Projects } from './components/Projects/Projects'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Stack } from './components/Stack/Stack'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <NavBar />
         <main className="px-8">
           <CardPresentation />
+          <Stack />
           <Experience />
           <Projects />
           <About />
